@@ -14,10 +14,10 @@ services:
       context: .
     ports:
       - 5901:5901
-    volumes:
-      - type: bind
-        source: /Users/farid/projects/social-engine/user-data
-        target: /user/app/user-data
+    # volumes:
+    #   - type: bind
+    #     source: /Users/farid/projects/social-engine/user-data
+    #     target: /user/app/user-data
     # env_file:
     #   - .env
 
